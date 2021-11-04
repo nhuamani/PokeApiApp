@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PokeApi App</string>
+    <string name="app_name">Pokedex</string>
     <string name="app_author">Nilton Huamaní</string>
     <string name="by">By:</string>
 </resources>

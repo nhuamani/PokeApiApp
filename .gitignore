@@ -1,6 +1,16 @@
+# Built application files
+*.apk
+*.ap_
+
+# Gradle files
+.gradle/
+.externalNativeBuild
+/build
+
+# Intellij
 *.iml
-.gradle
-/local.properties
+.idea/
+.idea/workspace.xml
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
@@ -8,8 +18,12 @@
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+
+# Android Studio captures folder
+captures/
+
+# NDK files
+**/.cxx
+
+# Local configuration file (sdk path, etc)
 local.properties
