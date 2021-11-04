@@ -14,4 +14,17 @@
         <!-- Customize your theme here. -->
         <item name="android:navigationBarColor">@color/blue_500</item>
     </style>
+
+    <style name="SplashScreenTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Sta. -->
+        <!-- Cambiar color de statusBarColor -->
+        <item name="android:statusBarColor">@color/blue_700</item>
+        <!-- Por default colorPrimaryDark es el color del StatusBar -->
+        <item name="colorPrimaryDark">@color/blue_700</item>
+        <!-- Cambiar color de navigationBarColor  -->
+        <item name="android:navigationBarColor">@color/blue_700</item>
+
+        <!--item name="android:windowBackground">@color/yellow_500</item-->
+        <item name="android:colorBackground">@color/blue_700</item>
+    </style>
 </resources>
